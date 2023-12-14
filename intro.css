@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+}
+
+#head {
+    text-align: center;
+    color: green;
+    border-style: solid;
+    padding: 30px;
+    background-color: lightgreen;
+    border-radius: 15px;
+    font-size: xxx-large;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+#tfoot {
+    text-align: center;
+}
+
+#table-summary {
+    text-align: center;
+}
+
+#topnavi {
+    color: red;
+}

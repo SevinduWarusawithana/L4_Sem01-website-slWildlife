@@ -1,0 +1,60 @@
+body {
+    background-color: lightgray;
+}
+
+#head {
+    text-align: center;
+    color: green;
+    border-style: solid;
+    padding: 30px;
+    background-color: lightgreen;
+    border-radius: 15px;
+    font-size: xxx-large;
+}
+
+h2 {
+    text-align: center;
+}
+
+#img01 {
+    border-radius: 15px;
+    margin: auto;
+
+}
+
+#img02 {
+    border-radius: 15px;
+
+}
+
+#img03 {
+    border-radius: 15px;
+}
+
+#img04 {
+    border-radius: 15px;
+
+}
+
+
+#topic1 {
+    border: solid;
+    border-radius: 7px;
+
+}
+
+#topic2 {
+    border: solid;
+    border-radius: 7px;
+
+}
+
+#topic3 {
+    border: solid;
+    border-radius: 7px;
+
+}
+
+#topnavi {
+    color: red;
+}

@@ -1,37 +1,39 @@
 body {
-    background-color: lightgray;
+    background-color: rgb(204, 255, 204);
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 #head {
-    text-align: left;
+    text-align: center;
     color: white;
-    border-style: solid;
-    border-color: green;
+    border-style: none;
     padding: 50px;
-    background-color: green;
     font-size: large;
     position: relative;
     box-sizing: border-box;
+    background-image: url("img34.png");
+    
 }
 
 #topnavi {
-    color: lightgreen;
-    padding: 10px 20px;
-    background-color: white;
+    color: green;
+    padding: 10.5px 23px;
+    background-color: rgb(213, 255, 213);
     border: none;
     border-radius: 60px;
     text-decoration: none;
+    font-weight: 800;
 }
 
 #subnavi {
     color: black;
     padding: 10px 20px;
-    background-color: white;
+    background-color: rgb(213, 255, 213);
     border: none;
     border-radius: 60px;
     text-decoration: none;
+    font-weight: 700;
 }
 
 #sub {
@@ -84,6 +86,8 @@ h2 {
 
 .sign {
     text-align: left;
+    font-size: xxx-large;
+
 }
 
 

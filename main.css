@@ -19,7 +19,7 @@ body {
 
 #topnavi {
     color: green;
-    padding: 10.5px 23px;
+    padding: 13px 23px;
     background-color: rgb(213, 255, 213);
     border: none;
     border-radius: 60px;
@@ -163,3 +163,66 @@ h2 {
     background-color: rgb(212, 240, 212);
 }
 
+.box02 {
+    border: solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-color: lightgreen;
+    background-color: rgb(212, 240, 212);
+}
+
+.forests {
+    font-weight: 100;
+    text-align: center;
+    font-size: x-large;
+}
+
+.des {
+    padding: 30px;
+    font-weight: 600;
+}
+
+.sqr2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sqr2 img{
+    width: 50%;
+    border-radius: 20px;
+    max-height: 500px;
+    max-width: 800px;
+    margin-right: 10px;
+}
+
+.sqr2 iframe{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.list01 {
+    padding: 30px 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.table01 {
+    padding: 1px 100px 50px;
+    margin: auto;
+
+}
+
+#tfoot {
+    text-align: center;
+}
+
+.table_topic {
+    text-align: center;
+    font-size: x-large;
+
+}

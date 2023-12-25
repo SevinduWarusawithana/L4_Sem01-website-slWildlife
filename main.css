@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
     background-color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -35,6 +43,7 @@ body {
     border-radius: 60px;
     text-decoration: none;
     font-weight: 700;
+
 }
 
 #sub {
@@ -137,11 +146,16 @@ h2 {
 #intro {
     font-weight: 550;
     padding: 20px;
+    margin: 30px;
+    text-align: center;
 
 }
 
 .test {
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
 #int {
@@ -157,6 +171,7 @@ h2 {
 
 .box01 {
     border: solid;
+    margin: 30px;
     border-radius: 10px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -167,6 +182,7 @@ h2 {
 
 .box02 {
     border: solid;
+    margin: 5px 40px;
     border-radius: 10px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -179,11 +195,14 @@ h2 {
     font-weight: 100;
     text-align: center;
     font-size: x-large;
+    margin: 20px;
+
 }
 
 .des {
     padding: 30px;
     font-weight: 600;
+    margin: 30px;
 }
 
 .sqr2 {
@@ -264,8 +283,7 @@ h2 {
     max-height: 400px;
 }
 
-.flex1 {
-    border: solid;
+.flex2 {
     border-radius: 10px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -276,9 +294,10 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 20px;
 }
 
-.flex2 {
+.flex3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -290,3 +309,74 @@ h2 {
     justify-content: center;
     padding: 50px 10px;
 }
+
+.link {
+    text-align: center;
+    font-weight: 500;
+}
+
+#subnavi02 {
+    color: black;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 60px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.double-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+  }
+  
+  .double-boxes img {
+    max-width: 600px;
+    border-radius: 5%;
+    object-fit: contain;
+  }
+
+  .double-boxes p {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  
+  .double-boxes a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    transition: ease 0.5s;
+  }
+
+  .double-boxes a:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .para1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .para2 {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0px;
+  }
+
+  #where_leo{
+    margin: 30px;
+  }

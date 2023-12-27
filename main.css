@@ -25,17 +25,35 @@ body {
     
 }
 
-#topnavi {
-    color: green;
-    padding: 13px 23px;
-    background-color: rgb(213, 255, 213);
-    border: none;
-    border-radius: 60px;
-    text-decoration: none;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-image: url("img34.png");
+}
+.nav-links {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav-links .active {
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    padding: 13px 25px;
+    background-color: rgb(102, 224, 102);
     font-weight: 800;
+
 }
 
-#subnavi {
+.nav-links a:hover {
+    background-color: rgb(102, 224, 102);
+    color: white;
+}
+
+.subnavi {
     color: black;
     padding: 10px 20px;
     background-color: rgb(213, 255, 213);
@@ -43,12 +61,7 @@ body {
     border-radius: 60px;
     text-decoration: none;
     font-weight: 700;
-
-}
-
-#sub {
-    text-align: right;
-    
+    transition: ease 0.5s;
 }
 
 h2 {
@@ -56,7 +69,7 @@ h2 {
 }
 
 #img01 {
-    border-radius: 15px;
+    border-radius: 20px;
     margin: auto;
 
 }
@@ -72,12 +85,22 @@ h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.subhead02 {
+    font-size: 25px;
+    color: black;
+    flex-direction: row;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 #img02 {
     max-width: 700px; 
     float: left;
     object-fit: cover;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-right: 20px;
     flex-direction: column;
     display: flex;
@@ -87,12 +110,13 @@ h2 {
 .para1 {
     font-size: 20px;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content:right;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 520;
+    margin: 30px;
 
 }
 
@@ -100,7 +124,7 @@ h2 {
     max-width: 700px; 
     float: left;
     object-fit: cover;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-right: 20px;
     flex-direction: column;
     display: flex;
@@ -112,7 +136,7 @@ h2 {
     max-width: 700px; 
     float: left;
     object-fit: cover;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-right: 20px;
     flex-direction: column;
     display: flex;
@@ -123,18 +147,19 @@ h2 {
 
 .topic2 {
     border: solid;
-    border-radius: 7px;
+    border-radius: 20px;
 
 }
 
 .topic3 {
     border: solid;
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
 .sign {
     text-align: left;
     font-size: xxx-large;
+    color: white;
 
 }
 
@@ -155,7 +180,8 @@ h2 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    display: flexbox;
+    justify-content: space-between;
 }
 
 #int {
@@ -172,7 +198,7 @@ h2 {
 .box01 {
     border: solid;
     margin: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 30px;
@@ -183,7 +209,7 @@ h2 {
 .box02 {
     border: solid;
     margin: 5px 40px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 30px;
@@ -196,6 +222,7 @@ h2 {
     text-align: center;
     font-size: x-large;
     margin: 20px;
+    font-size: 30px;
 
 }
 
@@ -284,7 +311,7 @@ h2 {
 }
 
 .flex2 {
-    border-radius: 10px;
+    border-radius: 20px;
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 30px;
@@ -313,16 +340,23 @@ h2 {
 .link {
     text-align: center;
     font-weight: 500;
+
 }
 
-#subnavi02 {
-    color: black;
+.subnavi02 {
+    color: white;
     padding: 10px 20px;
-    background-color: lightgreen;
+    background-color:green;
     border: none;
     border-radius: 60px;
     text-decoration: none;
     font-weight: 700;
+    transition: ease 0.5s;
+}
+
+.subnavi02 a:hover {
+    background-color: rgb(102, 224, 102);
+    color: white;
 }
 
 
@@ -336,13 +370,14 @@ h2 {
   
   .double-boxes img {
     max-width: 600px;
-    border-radius: 5%;
+    border-radius: 20px;
     object-fit: contain;
+    margin: 10px;
   }
 
   .double-boxes p {
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 270;
   }
   
   .double-boxes a {
@@ -380,3 +415,5 @@ h2 {
   #where_leo{
     margin: 30px;
   }
+
+  

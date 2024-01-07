@@ -423,7 +423,7 @@ h2 {
 
 
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
     
     .navbar {
         flex-direction: column;

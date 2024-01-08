@@ -256,7 +256,7 @@ h2 {
 }
 
 .list01 {
-    padding: 30px 300px;
+    padding: 30px 30px;
     margin: auto;
     border-radius: 20px;
 }
@@ -299,13 +299,6 @@ h2 {
 }
 
 #img37 {
-    border-radius: 20px;
-    padding: 10px;
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#img38 {
     border-radius: 20px;
     padding: 10px;
     max-width: 400px;
@@ -501,6 +494,10 @@ h2 {
         max-width: 400px;
     } 
 
+    #img10, #img11 {
+        max-width: 400px;
+    } 
+
     .forests {
         padding: 0px;
     }
@@ -516,6 +513,19 @@ h2 {
         text-align: center;
 
     }
+
+    .flex3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .double-boxes {
         flex-direction: column;
@@ -536,5 +546,31 @@ h2 {
     }
     
 
+
+}
+
+
+@media all and (max-width: 960px) {
+
+    #img33, #img35, #img36, #img37 {
+        max-width: 400px;
+        padding: 20px;
+    } 
+
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 1150px) {
+    .double-boxes {
+        flex-direction: column;
+    }
+
+    .double-boxes img {
+        max-width: 100%;
+        margin: 10px 0;
+    }
 
 }

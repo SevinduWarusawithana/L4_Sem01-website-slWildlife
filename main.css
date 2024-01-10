@@ -231,9 +231,9 @@ h2 {
 }
 
 .des {
-    padding: 30px;
+    padding: 10px;
     font-weight: 600;
-    margin: 30px;
+    margin: 10px;
 }
 
 .sqr2 {
@@ -412,7 +412,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     text-align: justify;
     text-justify: inter-word;
   }
@@ -513,6 +513,7 @@ h2 {
   
     #img05, #img06, #img07, #img08, #img09  {
         max-width: 400px;
+        transform: scale(1.01);
     } 
 
     #img10, #img11 {

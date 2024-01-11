@@ -241,6 +241,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 10px
     
 }
 
@@ -264,9 +265,8 @@ h2 {
 }
 
 .table01 {
-    padding: 1px 100px 50px;
+    padding: 1px 200px 30px;
     margin: auto;
-
 }
 
 #tfoot {
@@ -279,45 +279,16 @@ h2 {
 
 }
 
-#img33 {
-    border-radius: 20px;
+#img33, #img35, #img36, #img37, #img38, #img39 {
+    border-radius: 30px;
     padding: 20px;
     max-width: 400px;
     max-height: 400px;
 }
 
-#img35 {
-    border-radius: 20px;
-    padding: 10px;
-    max-width: 400px;
-    max-height: 400px;
-}
 
-#img36 {
+iframe {
     border-radius: 20px;
-    padding: 10px;
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#img37 {
-    border-radius: 20px;
-    padding: 10px;
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#img38 {
-    border-radius: 20px;
-    padding: 10px;
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#img39 {
-    border-radius: 20px;
-    padding: 10px;
-    max-width: 400px;
     max-height: 400px;
 }
 
@@ -432,7 +403,26 @@ h2 {
     margin: 30px;
   }
 
+  table {
+    border: 1px solid lightgreen;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
   
+  th {
+    background-color: rgb(102, 224, 102);
+    text-align: left;
+    padding: 5px;
+  }
+  
+  td {
+    border: 1px solid lightgreen;
+    padding: 5px;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(212, 240, 212);
+  }
 
 
 
@@ -513,11 +503,14 @@ h2 {
   
     #img05, #img06, #img07, #img08, #img09  {
         max-width: 400px;
-        transform: scale(1.01);
     } 
 
+    iframe {
+        max-height: 200px;
+    }
+
     #img10, #img11 {
-        max-width: 400px;
+        max-width: 300px;
     } 
 
     .forests {
@@ -585,8 +578,15 @@ h2 {
         padding: 50px;
     }
     
+    iframe {
+        border-radius: 20px;
+        max-width: 400px;
+    }
 
-
+    .table01 {
+        padding: 20px 10px;
+        margin: auto;
+    }
 }
 
 

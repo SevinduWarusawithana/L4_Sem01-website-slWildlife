@@ -100,7 +100,7 @@ h2 {
     color: white;
     padding: 20px;
     margin: 10px;    
-    gap: 10px;
+    gap: 20px;
 
 
 }
@@ -114,6 +114,9 @@ h2 {
     font-size: larger;
 }
 
+#img28 {
+    max-height: 350px;
+}
 #img28, #img29, #img30, #img31, #img32 {
     border-radius: 20px;
 }

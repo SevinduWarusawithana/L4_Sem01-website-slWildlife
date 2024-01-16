@@ -103,6 +103,7 @@ h2 {
     float: left;
     object-fit: cover;
     border-radius: 20px;
+    margin-top: 25px;
     margin-right: 20px;
     flex-direction: column;
     display: flex;
@@ -115,7 +116,7 @@ h2 {
     text-align: left;
     display: flex;
     justify-content:right;
-    padding: 20px;
+    padding: 20;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 520;
     margin: 10px;
@@ -286,7 +287,12 @@ h2 {
     max-height: 400px;
 }
 
-
+#img10, #img11 {
+    margin-top: 30px;
+}
+#img12, #img13, #img14, #img15, #img16, #img17, #img18, #img19, #img20, #img21 {
+    margin-top: 30px;
+}
 iframe {
     border-radius: 20px;
     max-height: 400px;
@@ -346,9 +352,15 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+
     gap: 40px;
   }
+
+@media (max-width: 768px){
+    .sqr2 iframe, .sqr2 img{
+        width: 100%;
+    }
+}
   
   .double-boxes img {
     max-width: 600px;
@@ -424,7 +436,27 @@ iframe {
     background-color: rgb(212, 240, 212);
   }
 
+  .footer {
+    background-color: green;
+    text-align: center;
+  }
 
+  .footer_links {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .pages {
+    text-align: left;
+  }
+
+  .parks {
+    text-align: left;
+  }
 
 
 @media all and (max-width: 700px) {
@@ -593,7 +625,7 @@ iframe {
 @media all and (max-width: 960px) {
 
     #img33, #img35, #img36, #img37,#img38, #img39 {
-        max-width: 400px;
+        max-width: 350px;
         padding: 20px;
     } 
 

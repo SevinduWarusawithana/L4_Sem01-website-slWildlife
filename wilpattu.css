@@ -137,6 +137,47 @@ h2 {
     padding: 20px;
 }
 
+.footer {
+    background-color: lightgreen;
+    text-align: center;
+  }
+
+  .footer_links {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .pages {
+    text-align: left;
+  }
+
+  .parks {
+    text-align: left;
+  }
+
+  .footer a {
+    text-decoration: none; 
+    cursor: pointer;
+    color: black;
+  }
+
+  .footer_sections {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .footer_des {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px;
+    max-width: 500px;
+  }
+
 @media all and (max-width: 1000px) {
 
     .navbar {
@@ -209,5 +250,10 @@ h2 {
     #img28, #img29, #img30, #img31, #img32 {
         max-width: 600px;
     }
+
+    .footer_sections {
+        flex-direction: column;
+        gap: 10px;
+      }
 
 }

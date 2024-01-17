@@ -261,7 +261,7 @@ h2 {
 
 .list01 {
     padding: 30px 30px;
-    margin: auto;
+    margin: 50px;
     border-radius: 20px;
 }
 
@@ -437,15 +437,14 @@ iframe {
   }
 
   .footer {
-    background-color: green;
+    background-color: lightgreen;
     text-align: center;
   }
 
   .footer_links {
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    align-items: center;
+    gap: 60px;
     justify-content: center;
     padding: 20px;
   }
@@ -456,6 +455,26 @@ iframe {
 
   .parks {
     text-align: left;
+  }
+
+  .footer a {
+    text-decoration: none; 
+    cursor: pointer;
+    color: black;
+  }
+
+  .footer_sections {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .footer_des {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px;
+    max-width: 500px;
   }
 
 
@@ -619,7 +638,13 @@ iframe {
         padding: 20px 10px;
         margin: auto;
     }
+
+    .footer_sections {
+        flex-direction: column;
+        gap: 10px;
+      }
 }
+
 
 
 @media all and (max-width: 960px) {

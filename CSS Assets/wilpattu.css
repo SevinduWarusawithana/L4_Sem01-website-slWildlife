@@ -12,7 +12,6 @@ body {
     font-size: 20px;
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -92,45 +91,49 @@ h2 {
 }
 
 /* flex boxes */
-.about {
+.section {
+    display: flex;
+    flex-direction: row;
     border: solid;
     border-radius: 20px;
+    border-color: darkgreen;
     background-color: green;
     color: white;
-    border-color: rgb(1, 66, 1);
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-    gap: 10px;
     padding: 20px;
-    margin: 20px 10px;
+    margin: 10px;    
+    gap: 20px;
+    justify-content: center;
+}
+
+.about {
     text-align: justify;
     text-justify: inter-word;
-    
-
 }
 
-.about_topic {
-    justify-content: center;
+#about {
+    font-size: larger;
 }
 
-#img22 {
-    display: block;
-    margin: auto;
+#img28 {
+    max-height: 350px;
+}
+#img28, #img29, #img30, #img31, #img32 {
     border-radius: 20px;
-
 }
 
-.photos {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px;
-    flex-direction: row;
+#img29, #img30, #img31, #img32 {
+    max-width: 300px;
 }
 
-#img23, #img24, #img25, #img26, #img27 {
+.sub_section1 {
+    border: solid;
     border-radius: 20px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    padding: 20px;
 }
 
 /* footer */
@@ -155,7 +158,6 @@ h2 {
     text-align: left;
   }
 
-  
   .footer a {
     text-decoration: none; 
     cursor: pointer;
@@ -176,11 +178,14 @@ h2 {
     max-width: 500px;
   }
 
+  .foot {
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+  }
 
 
-
-
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
 
     .navbar {
         flex-direction: column;
@@ -245,17 +250,17 @@ h2 {
         color: white;
     }
 
-    .photos {
+    .section {
         flex-direction: column;
     }
 
-    #img22 {
-        max-width: 400px;
-    
+    #img28, #img29, #img30, #img31, #img32 {
+        max-width: 600px;
     }
 
     .footer_sections {
         flex-direction: column;
         gap: 10px;
       }
+
 }

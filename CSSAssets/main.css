@@ -23,7 +23,7 @@ body {
     font-size: large;
     position: relative;
     box-sizing: border-box;
-    background-image: url("ImageAssets/img34.png");
+    background-image: url("img34.png");
     
 }
 
@@ -32,7 +32,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-image: url("ImageAssets/img34.png");
+    background-image: url("img34.png");
 }
 
 .nav-links {

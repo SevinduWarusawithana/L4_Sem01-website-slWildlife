@@ -90,6 +90,7 @@ h2 {
     text-align: center;
 }
 
+/* flex boxes */
 .section {
     display: flex;
     flex-direction: row;
@@ -102,8 +103,6 @@ h2 {
     margin: 10px;    
     gap: 20px;
     justify-content: center;
-
-
 }
 
 .about {
@@ -137,6 +136,7 @@ h2 {
     padding: 20px;
 }
 
+/* footer */
 .footer {
     background-color: lightgreen;
     text-align: center;

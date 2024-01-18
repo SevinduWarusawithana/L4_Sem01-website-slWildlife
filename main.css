@@ -14,6 +14,7 @@ body {
 
 }
 
+/* navigation bar */
 #head {
     text-align: center;
     color: white;
@@ -290,9 +291,11 @@ h2 {
 #img10, #img11 {
     margin-top: 30px;
 }
+
 #img12, #img13, #img14, #img15, #img16, #img17, #img18, #img19, #img20, #img21 {
     margin-top: 30px;
 }
+
 iframe {
     border-radius: 20px;
     max-height: 400px;
@@ -361,7 +364,7 @@ iframe {
         width: 100%;
     }
 }
-  
+  /* flex boxes */
   .double-boxes img {
     max-width: 600px;
     border-radius: 20px;
@@ -415,6 +418,7 @@ iframe {
     margin: 30px;
   }
 
+  /* table */
   table {
     border: 1px solid lightgreen;
     border-collapse: collapse;
@@ -436,6 +440,7 @@ iframe {
     background-color: rgb(212, 240, 212);
   }
 
+  /* footer */
   .footer {
     background-color: lightgreen;
     text-align: center;

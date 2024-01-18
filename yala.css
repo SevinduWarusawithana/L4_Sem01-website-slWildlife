@@ -61,8 +61,6 @@ body {
 
 }
 
-
-
 .nav-links2 {
     display: flex;
     justify-content: center;
@@ -93,6 +91,7 @@ h2 {
     text-align: center;
 }
 
+/* flex boxes */
 .about {
     border: solid;
     border-radius: 20px;
@@ -113,7 +112,6 @@ h2 {
 
 .about_topic {
     justify-content: center;
-    font
 }
 
 #img22 {
@@ -135,6 +133,7 @@ h2 {
     border-radius: 20px;
 }
 
+/* footer */
 .footer {
     background-color: lightgreen;
     text-align: center;
@@ -156,6 +155,7 @@ h2 {
     text-align: left;
   }
 
+  
   .footer a {
     text-decoration: none; 
     cursor: pointer;

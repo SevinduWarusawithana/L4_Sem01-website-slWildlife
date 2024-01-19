@@ -296,6 +296,21 @@ h2 {
     margin-top: 30px;
 }
 
+/* adding animations */
+.all_images img {
+    transition: transform 0.3s;
+}
+.all_images img:hover{
+    transform: scale(1.02);
+}
+
+.all_images iframe {
+    transition: transform 0.3s;
+}
+.all_images iframe:hover{
+    transform: scale(1.02);
+}
+
 iframe {
     border-radius: 20px;
     max-height: 400px;

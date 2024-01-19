@@ -182,6 +182,14 @@ h2 {
     padding-top: 10px;
   }
 
+/* adding animations */
+.all_images img {
+    transition: transform 0.3s;
+}
+.all_images img:hover{
+    transform: scale(1.02);
+}
+
 
 
 

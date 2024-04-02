@@ -1,0 +1,23 @@
+[
+    {
+        "int": "The Department of Wildlife Conservation"
+    },
+    {
+        "para01": "The Department of Wildlife Conservation in Sri Lanka is a governmental organization responsible for the protection and management of the country's rich biodiversity. Established in 1949, its primary focus is on conserving and sustaining the diverse flora and fauna within Sri Lanka's national parks, wildlife sanctuaries, and other protected areas.",
+        "para02": "The department works towards the conservation of endangered species, the preservation of habitats, and the overall promotion of biodiversity. It plays a crucial role in enforcing wildlife laws, preventing illegal activities such as poaching and habitat destruction, and conducting research to better understand and manage the country's unique ecosystems.",
+        "para03": "In addition to conservation efforts, the department also aims to raise awareness among the public about the importance of wildlife and environmental protection. Through education and community engagement, they strive to foster a sense of responsibility and appreciation for Sri Lanka's natural heritage."
+    },
+    {
+        "gallery": {
+            "img33": "ImageAssets/img33.jpg",
+            "img35": "ImageAssets/img35.jpg",
+            "img36": "ImageAssets/img36.jpg",
+            "img37": "ImageAssets/img37.jpg",
+            "img38": "ImageAssets/img38.jpg",
+            "img39": "ImageAssets/img39.jpg"
+        }
+    },
+    {
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2025377.936491697!2d79.23092949792698!3d7.485528306705856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1702474179586!5m2!1sen!2slk"
+    }
+]

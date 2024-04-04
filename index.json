@@ -30,20 +30,21 @@
     },
     {
         "list": {
-            "subhead01": "Things to do in Sri Lanka",
-            "Animal Watching": {
-                "thing1": "Whale Watching",
-                "thing2": "Bird Watching",
-                "thing3": "Elephant Orphanages",
-                "thing4": "Turtle Conservation Projects"
-            },
-            "Adventures": {
-                "thing1": "Safari Adventures",
-                "thing2": "Hiking and Nature Trails",
-                "thing3": "Camping in Wildlife Reserves",
-                "thing4": "Visit Botanical Gardens",
-                "thing5": "Explore Ancient Forests"
-            }
+            "listhead01": "Things to do in Sri Lanka",
+            
+            "listSubTopic01": "Animal Watching",
+            "thing1": "Whale Watching",
+            "thing2": "Bird Watching",
+            "thing3": "Elephant Orphanages",
+            "thing4": "Turtle Conservation Projects",
+            
+            "listSubTopic02": "Animal Watching",
+            "thing5": "Safari Adventures",
+            "thing6": "Hiking and Nature Trails",
+            "thing7": "Camping in Wildlife Reserves",
+            "thing8": "Visit Botanical Gardens",
+            "thing9": "Explore Ancient Forests"
+            
         }
     }
 ]

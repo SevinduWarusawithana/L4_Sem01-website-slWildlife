@@ -11,6 +11,7 @@ fetch("department.json")
 
 const data = JSON.parse(localStorage.getItem("departmentData"));
 
+
 document.getElementById("int").innerHTML = data[0].int;
 
 document.getElementById("para01").innerHTML = data[1].para01;

@@ -2,8 +2,7 @@
 fetch("intro.json")
     .then((response) => response.json())
     .then((data) => {
-        //local storage
-        // document.getElementById("maini").innerHTML= data.main.Intro;
+        
         localStorage.setItem("introData", JSON.stringify(data));
     })
     .catch((error) => {

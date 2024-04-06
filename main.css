@@ -403,6 +403,7 @@ iframe {
     border: 1px solid #ccc;
     margin-bottom: 5px;
     border-radius: 5px;
+    padding-top: 10px;
 }
 
 .subscribe button[type="submit"] {

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3fab7;
+    margin: 10px;
+    padding: 0;
+    height: 100vh; 
+}
+
+.fullDashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 70px;
+}
+
+/* #headingDashboard {
+    padding: 10px;
+} */
+
+#changeData {
+    margin: 10px;
+}
+
+#heading {
+    display: flex;
+    flex-direction: row;
+}
+
+#username {
+    font-size: medium;
+    padding-top: 10px;
+}

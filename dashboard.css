@@ -18,13 +18,13 @@ body {
 .fullDashboard {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap:300px ;
     margin: 20px 70px;
 }
 
-/* #headingDashboard {
-    padding: 10px;
-} */
+#headingDashboard {
+    padding: 20px;
+}
 
 #changeData {
     margin: 10px;
@@ -37,5 +37,5 @@ body {
 
 #username {
     font-size: medium;
-    padding-top: 10px;
+    padding-top: 30px;
 }

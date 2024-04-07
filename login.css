@@ -49,15 +49,17 @@ body {
     border-radius: 10px;
 }
 
-.input-group input[type="submit"] {
+.input-group button[type="submit"] {
     background-color: #329e04;
     color: #fff;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
     transition: ease 0.3s;
-
+    padding: 10px;
+    font-size: large;
 }
 
-.input-group input[type="submit"]:hover {
+.input-group button[type="submit"]:hover {
     background-color: #055305;
 }

@@ -1,5 +1,5 @@
 //fetch JSON data
-fetch("animal.json")
+fetch("animals.json")
     .then((response) => response.json())
     .then((data) => {
         

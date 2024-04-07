@@ -448,6 +448,12 @@ iframe {
     cursor: pointer;
 }
 
+#textarea {
+    border: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 @media (max-width: 768px){
     .sqr2 iframe, .sqr2 img{
         width: 100%;

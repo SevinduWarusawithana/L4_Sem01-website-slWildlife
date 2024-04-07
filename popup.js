@@ -2,14 +2,14 @@ const get_data_button = document.getElementById("selectPage");
 if (get_data_button)
   get_data_button.addEventListener("click", function (e) {
 
-    const selectPage = document.querySelector(".select_page").value;
-    let textarea = document.querySelector(".json_textarea");
+    const selectPage = document.querySelector(".selectPage").value;
+    let textarea = document.querySelector(".jsonTextarea");
     
 
     if (selectPage == "home") {
-      textarea.value = localStorage.getItem("HomeData");
+      textarea.value = localStorage.getItem("homeData");
     }
-    if (selectPage == "introduction") {
+    if (selectPage == "intro") {
       textarea.value = localStorage.getItem("introData");
     }
 
@@ -17,8 +17,8 @@ if (get_data_button)
       textarea.value = localStorage.getItem("departmentData");
     }
 
-    if (selectPage == "leopards") {
-      textarea.value = localStorage.getItem("leopardsData");
+    if (selectPage == "leopard") {
+      textarea.value = localStorage.getItem("leopardData");
     }
 
     if (selectPage == "animals") {
@@ -40,41 +40,41 @@ const editPageButton = document.getElementById("saveChanges");
 
 if (editPageButton) {
   editPageButton.addEventListener("click", function (e) {
-    e.preventDefault();
+    // e.preventDefault();
 
     const selectPage = document.querySelector(".selectPage").value;
-    const textareaValue = document.querySelector(".json_textarea").value;
+    const textareaValue = document.querySelector(".jsonTextarea").value;
 
     if (selectPage && textareaValue) {
       if (selectPage == "home") {
-        localStorage.setItem("Home_page", textareaValue);
+        localStorage.setItem("homeData", textareaValue);
       }
 
-      if (selectPage == "introduction") {
-        localStorage.setItem("Introduction", textareaValue);
+      if (selectPage == "intro") {
+        localStorage.setItem("introData", textareaValue);
       }
 
       if (selectPage == "department") {
-        localStorage.setItem("Department", textareaValue);
+        localStorage.setItem("departmentData", textareaValue);
       }
 
-      if (selectPage == "leopards") {
-        localStorage.setItem("Leopards", textareaValue);
+      if (selectPage == "leopard") {
+        localStorage.setItem("leopardData", textareaValue);
       }
 
       if (selectPage == "animals") {
-        localStorage.setItem("Animal_data", textareaValue);
+        localStorage.setItem("animalData", textareaValue);
       }
 
       if (selectPage == "wilpattu") {
-        localStorage.setItem("Willpattu", textareaValue);
+        localStorage.setItem("wilpattuData", textareaValue);
       }
 
       if (selectPage == "yala") {
-        localStorage.setItem("Yala", textareaValue);
+        localStorage.setItem("yalaData", textareaValue);
       }
 
-      // localStorage.setItem(selectPage, textareaValue);
+      
       alert("Data saved to local storage!");
     } else {
       console.log(

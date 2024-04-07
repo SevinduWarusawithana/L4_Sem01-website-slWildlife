@@ -423,11 +423,11 @@ iframe {
     color: white;
 }
 
-/* #openPopup {
+#openPopup {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin: 10px 800px;
+    margin: 10px 600px;
     padding: 10px;
     text-align: center;
     background-color: black;
@@ -435,24 +435,16 @@ iframe {
 }
 
 
-#edit {
+.headingPopup {
     display: flex;
     flex-direction: column;
     text-align: center;
-} */
-
-#openPopup {
-    font-size: xxx-large;
-    text-align: right;
-    padding: 20px;
-    cursor: pointer;
 }
 
-#textarea {
-    border: solid;
-    border-radius: 10px;
-    padding: 5px;
+.display-none {
+    display: none;
 }
+
 
 @media (max-width: 768px){
     .sqr2 iframe, .sqr2 img{

@@ -32,7 +32,8 @@ document.getElementById("box05para").innerHTML = data[5].box05.para;
 // table eka danna one yako
 
 if (localStorage.getItem("currentUser")) {
-    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.querySelector(".headingPopup").classList.remove("display-none")
+    const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
     document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
 }
 

@@ -43,8 +43,10 @@ document.getElementById("listContent08").innerHTML = data[4].list.thing8;
 document.getElementById("listContent09").innerHTML = data[4].list.thing9;
 
 
+
 if (localStorage.getItem("currentUser")) {
-    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.querySelector(".headingPopup").classList.remove("display-none")
+    const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
     document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
 }
 

@@ -24,7 +24,8 @@ document.getElementById("activity").innerHTML = data[2].box03.subhead01;
 document.getElementById("box03para").innerHTML = data[2].box03.para;
 
 if (localStorage.getItem("currentUser")) {
-    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.querySelector(".headingPopup").classList.remove("display-none")
+    const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
     document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
 }
 

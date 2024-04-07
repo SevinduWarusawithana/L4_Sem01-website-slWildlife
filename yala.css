@@ -238,6 +238,28 @@ h2 {
     color: white;
 }
 
+#openPopup {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 600px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.headingPopup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.display-none {
+    display: none;
+}
+
 
 @media all and (max-width: 900px) {
 

@@ -19,7 +19,8 @@ document.getElementById("para02").innerHTML = data[1].para02;
 document.getElementById("para03").innerHTML = data[1].para03;
 
 if (localStorage.getItem("currentUser")) {
-    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.querySelector(".headingPopup").classList.remove("display-none")
+    const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
     document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
 }
 

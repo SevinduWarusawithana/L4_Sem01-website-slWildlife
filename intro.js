@@ -39,3 +39,30 @@ if (localStorage.getItem("currentUser")) {
 function openPopup() {
     window.open("popup.html", "", "width=800px, height=410px");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const newsletterForm = document.getElementById("newsletterForm");
+
+    newsletterForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const email = document.getElementById("email").value;
+
+        
+        saveEmailToLocalStorage(email);
+
+        
+        document.getElementById("email").value = "";
+
+        alert("Thank you for subscribing to our newsletter!");
+    });
+    function saveEmailToLocalStorage(email) {
+        let newsletterEmails =
+        JSON.parse(localStorage.getItem("newsletterEmails")) || [];
+        newsletterEmails.push(email);
+        localStorage.setItem(
+        "newsletterEmails",
+        JSON.stringify(newsletterEmails)
+              );
+    }
+});

@@ -22,3 +22,12 @@ document.getElementById("box02para").innerHTML = data[2].box02.para;
 
 document.getElementById("box03Subhead01").innerHTML = data[2].box03.subhead01;
 document.getElementById("box03para").innerHTML = data[2].box03.para;
+
+if (localStorage.getItem("currentUser")) {
+    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+}
+
+function openPopup() {
+    window.open("popup.html", "", "width=800px, height=410px");
+}

@@ -423,6 +423,31 @@ iframe {
     color: white;
 }
 
+/* #openPopup {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 800px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+#edit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} */
+
+#openPopup {
+    font-size: xxx-large;
+    text-align: right;
+    padding: 20px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px){
     .sqr2 iframe, .sqr2 img{
         width: 100%;

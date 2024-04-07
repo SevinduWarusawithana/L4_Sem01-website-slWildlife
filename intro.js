@@ -30,3 +30,12 @@ document.getElementById("box05Subhead01").innerHTML = data[5].box05.subhead01;
 document.getElementById("box05para").innerHTML = data[5].box05.para;
 
 // table eka danna one yako
+
+if (localStorage.getItem("currentUser")) {
+    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+}
+
+function openPopup() {
+    window.open("popup.html", "", "width=800px, height=410px");
+}

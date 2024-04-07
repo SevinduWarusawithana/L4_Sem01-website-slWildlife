@@ -10,16 +10,22 @@
 
 
     <body>
-        <div id="heading">
-            <h2 id="headingDashboard">Dashboard ➜</h2> 
-            <p id="username">sevindu</p>
+        <div id="dashHeading">
+            <div id="heading">
+                <h2 id="headingDashboard">Dashboard ➜</h2> 
+                <p id="username"></p>
+            </div>
+            <a id="backBtn" href="index.html"> ↩ Back to the website</a>
         </div>
 
 
         <div class="fullDashboard">
             <div class="editiingPart">
 
-                <select id="changeData" name="page" required>
+                <h4>To edit the content click the button below : </h4>
+                <div id="openPopup"></div>
+
+                <!-- <select id="changeData" name="page" required>
                     <option value="selectPage">Select Page</option>
                     <option value="admin">Home</option>
                     <option value="admin">Introduction</option>
@@ -31,8 +37,7 @@
         
                 <button>Select Page</button>
                 <button>Save Changes</button><br>
-                <textarea rows="50" cols="60"></textarea>
-
+                <textarea rows="50" cols="60"></textarea> -->
 
             </div>
 
@@ -47,5 +52,6 @@
 
         </div>
         <script src="dashboard.js"></script>
+        <!-- <script src="login.js"></script> -->
     </body>
 </html>

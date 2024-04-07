@@ -18,8 +18,11 @@ body {
 .fullDashboard {
     display: flex;
     flex-direction: row;
-    gap:300px ;
-    margin: 20px 70px;
+    gap:700px ;
+    margin: 10px 70px;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 #headingDashboard {
@@ -38,4 +41,30 @@ body {
 #username {
     font-size: medium;
     padding-top: 30px;
+}
+
+#openPopup {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#backBtn {
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+#dashHeading {
+    display: flex;
+    justify-content: space-between;
 }

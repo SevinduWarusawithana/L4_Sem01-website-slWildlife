@@ -41,3 +41,13 @@ document.getElementById("listContent06").innerHTML = data[4].list.thing6;
 document.getElementById("listContent07").innerHTML = data[4].list.thing7;
 document.getElementById("listContent08").innerHTML = data[4].list.thing8;
 document.getElementById("listContent09").innerHTML = data[4].list.thing9;
+
+
+if (localStorage.getItem("currentUser")) {
+    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+}
+
+function openPopup() {
+    window.open("popup.html", "", "width=800px, height=410px");
+}

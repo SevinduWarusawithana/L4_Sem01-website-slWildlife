@@ -43,3 +43,12 @@ document.getElementById("box09para").innerHTML = data[1].box09.para01;
 
 document.getElementById("box10Subhead01").innerHTML = data[1].box10.subhead01;
 document.getElementById("box10para").innerHTML = data[1].box10.para01;
+
+if (localStorage.getItem("currentUser")) {
+    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+}
+
+function openPopup() {
+    window.open("popup.html", "", "width=800px, height=410px");
+}

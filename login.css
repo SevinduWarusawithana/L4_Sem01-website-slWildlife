@@ -58,6 +58,7 @@ body {
     transition: ease 0.3s;
     padding: 10px;
     font-size: large;
+    
 }
 
 .input-group button[type="submit"]:hover {

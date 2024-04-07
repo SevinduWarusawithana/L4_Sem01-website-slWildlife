@@ -40,3 +40,12 @@ document.getElementById("box05Subhead01").innerHTML = data[5].box02.subhead01;
 document.getElementById("box05para01").innerHTML = data[5].box02.para01;
 document.getElementById("box05para02").innerHTML = data[5].box02.para02;
 document.getElementById("box05para03").innerHTML = data[5].box02.para03;
+
+if (localStorage.getItem("currentUser")) {
+    const getPopup = `<span class="popup" onclick="openPopup()">📝</span>`;
+    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+}
+
+function openPopup() {
+    window.open("popup.html", "", "width=800px, height=410px");
+}

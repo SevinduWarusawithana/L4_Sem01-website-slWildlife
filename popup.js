@@ -33,9 +33,12 @@ if (popupSelectPage)
 
     if (selectPage == "yala") {
       textarea.value = localStorage.getItem("yalaData");
-    } else {
+    } 
+    
+    else {
       console.log("something went wrong");
     }
+
   });
 
 //setting changes to local storage
@@ -79,10 +82,11 @@ if (popupSaveChanges) {
 
       
       alert("Data saved to local storage!");
-    } else {
-      console.log(
-        "Error: Something went wrong. Make sure both page and textarea have values."
-      );
+    } 
+    
+    else {
+      console.log("Error: Something went wrong. Make sure both page and textarea have values.");
     }
+
   });
 } 

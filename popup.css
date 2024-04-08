@@ -18,4 +18,29 @@ body {
     border: solid;
     border-radius: 10px;
     padding: 5px;
+    margin-left: 10px;
+} 
+
+.popupHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .editor {
+  border: solid;
+} */
+
+#page,
+#selectPage, 
+#saveChanges {
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-size: medium;
+  background-color: black;
+  color: white;
+}
+
+#topicHeading {
+  font: 1.1em sans-serif;
 }

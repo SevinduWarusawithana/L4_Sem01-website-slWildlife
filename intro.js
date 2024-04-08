@@ -9,9 +9,11 @@ fetch("intro.json")
         console.error("Error", error);
     });
 
+//getting data from local storage
 const data = JSON.parse(localStorage.getItem("introData"));
 
 
+//convert it to js
 document.getElementById("int").innerHTML = data[0].int;
 
 document.getElementById("box01Subhead01").innerHTML = data[1].box01.subhead01;
@@ -41,22 +43,18 @@ document.getElementById("box05para").innerHTML = data[5].box05.para;
 //     window.open("popup.html", "", "width=800px, height=410px");
 // }
 
+//fetching email to local storage
 document.addEventListener("DOMContentLoaded", function () {
     const newsletterForm = document.getElementById("newsletterForm");
 
     newsletterForm.addEventListener("submit", function (event) {
         event.preventDefault();
-
         const email = document.getElementById("email").value;
-
-        
         saveEmailToLocalStorage(email);
-
-        
         document.getElementById("email").value = "";
-
         alert("Thank you for subscribing to our newsletter!");
     });
+
     function saveEmailToLocalStorage(email) {
         let newsletterEmails =
         JSON.parse(localStorage.getItem("newsletterEmails")) || [];

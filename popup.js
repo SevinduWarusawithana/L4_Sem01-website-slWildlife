@@ -1,6 +1,7 @@
-const get_data_button = document.getElementById("selectPage");
-if (get_data_button)
-  get_data_button.addEventListener("click", function (e) {
+//getting items from local storage
+const popupSelectPage = document.getElementById("selectPage");
+if (popupSelectPage)
+  popupSelectPage.addEventListener("click", function (e) {
 
     const selectPage = document.querySelector(".selectPage").value;
     let textarea = document.querySelector(".jsonTextarea");
@@ -9,6 +10,7 @@ if (get_data_button)
     if (selectPage == "home") {
       textarea.value = localStorage.getItem("homeData");
     }
+
     if (selectPage == "intro") {
       textarea.value = localStorage.getItem("introData");
     }
@@ -36,11 +38,12 @@ if (get_data_button)
     }
   });
 
-const editPageButton = document.getElementById("saveChanges");
+//setting changes to local storage
+const popupSaveChanges = document.getElementById("saveChanges");
 
-if (editPageButton) {
-  editPageButton.addEventListener("click", function (e) {
-    // e.preventDefault();
+if (popupSaveChanges) {
+  popupSaveChanges.addEventListener("click", function (e) {
+    e.preventDefault();
 
     const selectPage = document.querySelector(".selectPage").value;
     const textareaValue = document.querySelector(".jsonTextarea").value;

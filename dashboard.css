@@ -18,7 +18,7 @@ body {
 .fullDashboard {
     display: flex;
     flex-direction: row;
-    gap:700px ;
+    justify-content: space-between;
     margin: 10px 70px;
     border: solid;
     border-radius: 20px;
@@ -68,7 +68,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 
 #emialLists{
     border: solid;

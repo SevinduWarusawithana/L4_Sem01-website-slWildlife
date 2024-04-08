@@ -8,20 +8,27 @@
 </head>
 <body>
     <div class="editor">
-        <label for="page">Select Page: </label>
-        <select name="page" id="page" class="selectPage">
-            <option value="home">Home Page</option>
-            <option value="intro">Introduction Page</option>
-            <option value="department">Department Page</option>
-            <option value="animals">Animals Page</option>
-            <option value="leopard">Leopard Page</option>
-            <option value="yala">Yala Page</option>
-            <option value="wilpattu">Wilpattu Page</option>
-        </select>
+        <div class="popupHeading">
+            <div>
+            <label for="page" id="topicHeading">Select Page: </label>
+            <select name="page" id="page" class="selectPage">
+                <option value="home">Home Page</option>
+                <option value="intro">Introduction Page</option>
+                <option value="department">Department Page</option>
+                <option value="animals">Animals Page</option>
+                <option value="leopard">Leopard Page</option>
+                <option value="yala">Yala Page</option>
+                <option value="wilpattu">Wilpattu Page</option>
+            </select>
+            <button id="selectPage" class="selectBTN">Select Page</button>
 
-        <button id="selectPage" class="selectBTN">Select Page</button>
-        <button id="saveChanges" class="saveBTN">Save Changes</button><br><br>
-        <textarea name="" class="jsonTextarea" id="textarea" cols="100" rows="20"></textarea>
+            </div>
+        
+            <div class="twoBTNs">
+                <button id="saveChanges" class="saveBTN">Save Changes</button><br><br>
+            </div>
+        </div>
+        <textarea name="" class="jsonTextarea" id="textarea" cols="95" rows="18"></textarea>
     </div>
     <script src="popup.js"></script>
 </body>

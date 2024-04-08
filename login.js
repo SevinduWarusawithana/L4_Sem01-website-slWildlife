@@ -30,7 +30,7 @@ document
         if (user) {
               localStorage.setItem("currentUser", JSON.stringify(user));
           if (user.role == "user") {
-            window.location.href = "dashboard.html";
+            window.location.href = "index.html";
           } else {
             window.location.href = "dashboard.html";
           }

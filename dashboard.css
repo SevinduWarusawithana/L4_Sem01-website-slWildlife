@@ -68,3 +68,19 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+
+#emialLists{
+    border: solid;
+    border-radius: 20px;
+    padding: 30px 90px;
+    background-color: white;
+    margin: 20px;
+}
+
+.editiingPart h4{
+    border: none;
+    margin: 20px;
+    font-size: 25px;
+    padding: 10px;
+}

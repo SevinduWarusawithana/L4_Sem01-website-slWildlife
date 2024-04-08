@@ -41,15 +41,15 @@ document.getElementById("box05para01").innerHTML = data[5].box02.para01;
 document.getElementById("box05para02").innerHTML = data[5].box02.para02;
 document.getElementById("box05para03").innerHTML = data[5].box02.para03;
 
-if (localStorage.getItem("currentUser")) {
-    document.querySelector(".headingPopup").classList.remove("display-none")
-    const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
-    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
-}
+// if (localStorage.getItem("currentUser")) {
+//     document.querySelector(".headingPopup").classList.remove("display-none")
+//     const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
+//     document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+// }
 
-function openPopup() {
-    window.open("popup.html", "", "width=800px, height=410px");
-}
+// function openPopup() {
+//     window.open("popup.html", "", "width=800px, height=410px");
+// }
 
 document.addEventListener("DOMContentLoaded", function () {
     const newsletterForm = document.getElementById("newsletterForm");

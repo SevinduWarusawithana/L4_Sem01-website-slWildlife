@@ -18,15 +18,15 @@ document.getElementById("para01").innerHTML = data[1].para01;
 document.getElementById("para02").innerHTML = data[1].para02;
 document.getElementById("para03").innerHTML = data[1].para03;
 
-if (localStorage.getItem("currentUser")) {
-    document.querySelector(".headingPopup").classList.remove("display-none")
-    const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
-    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
-}
+// if (localStorage.getItem("currentUser")) {
+//     document.querySelector(".headingPopup").classList.remove("display-none")
+//     const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
+//     document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+// }
 
-function openPopup() {
-    window.open("popup.html", "", "width=800px, height=410px");
-}
+// function openPopup() {
+//     window.open("popup.html", "", "width=800px, height=410px");
+// }
 
 document.addEventListener("DOMContentLoaded", function () {
     const newsletterForm = document.getElementById("newsletterForm");

@@ -44,15 +44,15 @@ document.getElementById("box09para").innerHTML = data[1].box09.para01;
 document.getElementById("box10Subhead01").innerHTML = data[1].box10.subhead01;
 document.getElementById("box10para").innerHTML = data[1].box10.para01;
 
-if (localStorage.getItem("currentUser")) {
-    document.querySelector(".headingPopup").classList.remove("display-none")
-    const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
-    document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
-}
+// if (localStorage.getItem("currentUser")) {
+//     document.querySelector(".headingPopup").classList.remove("display-none")
+//     const getPopup = `<span class="popup" onclick="openPopup()">Open Popup</span>`;
+//     document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+// }
 
-function openPopup() {
-    window.open("popup.html", "", "width=800px, height=410px");
-}
+// function openPopup() {
+//     window.open("popup.html", "", "width=800px, height=410px");
+// }
 
 document.addEventListener("DOMContentLoaded", function () {
     const newsletterForm = document.getElementById("newsletterForm");
